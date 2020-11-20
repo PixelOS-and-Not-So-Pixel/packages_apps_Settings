@@ -16,6 +16,12 @@
 -->
 
 <resources>
+    <declare-styleable name="CustomSeekBarPreference">
+        <attr name="interval" format="integer" />
+        <attr name="units" format="string|reference" />
+        <attr name="allowEditText" format="boolean" />
+    </declare-styleable>
+    
     <attr name="customPreferenceStyle" format="reference" />
 
     <!-- Interval seekbar -->
